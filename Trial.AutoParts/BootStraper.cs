@@ -10,6 +10,9 @@ using Microsoft.Practices.Unity;
 using Prism.Modularity;
 using Prism.Regions;
 using Trial.AutoParts.Modules.Ribbon;
+using Trial.AutoParts.Modules.Statusbar;
+using Trials.AutoParts.Modules.Overview;
+using Trial.AutoParts.Modules.Detail;
 
 namespace Trial.AutoParts
 {
@@ -31,6 +34,10 @@ namespace Trial.AutoParts
 
             ModuleCatalog moduleCatalog = (ModuleCatalog)this.ModuleCatalog;
             moduleCatalog.AddModule(typeof(RibbonModule));
+            moduleCatalog.AddModule(typeof(StatusbarModule));
+            moduleCatalog.AddModule(typeof(OverviewModule));
+            moduleCatalog.AddModule(typeof(DetailModule));
+
         }
 
     }

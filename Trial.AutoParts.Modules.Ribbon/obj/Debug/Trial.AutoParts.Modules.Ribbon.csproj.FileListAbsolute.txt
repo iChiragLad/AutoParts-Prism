@@ -26,3 +26,31 @@ D:\Backup\TestProjects\AutoParts - Prism\AutoParts\Trial.AutoParts.Modules.Ribbo
 D:\Backup\TestProjects\AutoParts - Prism\AutoParts\Trial.AutoParts.Modules.Ribbon\obj\Debug\Trial.AutoParts.Modules.Ribbon.csproj.GenerateResource.Cache
 D:\Backup\TestProjects\AutoParts - Prism\AutoParts\Trial.AutoParts.Modules.Ribbon\obj\Debug\Trial.AutoParts.Modules.Ribbon.dll
 D:\Backup\TestProjects\AutoParts - Prism\AutoParts\Trial.AutoParts.Modules.Ribbon\obj\Debug\Trial.AutoParts.Modules.Ribbon.pdb
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\bin\Debug\Trial.AutoParts.Modules.Ribbon.dll
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\bin\Debug\Trial.AutoParts.Modules.Ribbon.pdb
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\bin\Debug\Microsoft.Practices.Unity.dll
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\bin\Debug\Prism.dll
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\bin\Debug\Prism.Unity.Wpf.dll
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\bin\Debug\Prism.Wpf.dll
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\bin\Debug\System.Windows.Interactivity.dll
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\bin\Debug\Microsoft.Practices.Unity.xml
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\bin\Debug\Prism.xml
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\bin\Debug\Prism.Unity.Wpf.xml
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\bin\Debug\Prism.Wpf.xml
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\obj\Debug\View\AutoPartsRibbon.g.cs
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\obj\Debug\Trial.AutoParts.Modules.Ribbon_MarkupCompile.cache
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\obj\Debug\Trial.AutoParts.Modules.Ribbon_MarkupCompile.lref
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\obj\Debug\View\Theme.baml
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\obj\Debug\View\AutoPartsRibbon.baml
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\obj\Debug\Trial.AutoParts.Modules.Ribbon.g.resources
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\obj\Debug\Trial.AutoParts.Modules.Ribbon.Properties.Resources.resources
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\obj\Debug\Trial.AutoParts.Modules.Ribbon.csproj.GenerateResource.Cache
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\obj\Debug\Trial.AutoParts.Modules.Ribbon.dll
+C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Ribbon\obj\Debug\Trial.AutoParts.Modules.Ribbon.pdb

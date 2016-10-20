@@ -7,15 +7,14 @@
         WindowStartupLocation="CenterScreen" WindowState="Maximized"
         xmlns:local="clr-namespace:Trial.AutoParts"
         mc:Ignorable="d"
-        Title="PrismAppShell"  Height="430" Width="1110">
-    <Grid x:Name="LayoutRoot">
+        Height="430" Width="1110">
+    <Grid x:Name="LayoutRoot" Background="{StaticResource MainBackground}">
         <DockPanel LastChildFill="True" HorizontalAlignment="Stretch" 
                  Name="dockPanel1" VerticalAlignment="Stretch">
-            <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" 
-                    Background="#FFCCD4F8" Height="100">
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Height="100">
                 <ContentControl prism:RegionManager.RegionName="RibbonRegion"></ContentControl>
             </StackPanel>
-            <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" Background="#FFD9E1EF" Height="100">
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" Height="100">
                 <ContentControl prism:RegionManager.RegionName="StatusRegion"></ContentControl>
             </StackPanel>
             <ScrollViewer>

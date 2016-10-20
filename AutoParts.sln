@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trial.AutoParts", "Trial.AutoParts\Trial.AutoParts.csproj", "{DF96CB5F-43F5-43CD-9B93-27973F929223}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trial.AutoParts.Modules.Ribbon", "Trial.AutoParts.Modules.Ribbon\Trial.AutoParts.Modules.Ribbon.csproj", "{A1149903-010D-4329-980E-11FB37E29C59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trial.AutoParts.Modules.Statusbar", "Trial.AutoParts.Modules.Statusbar\Trial.AutoParts.Modules.Statusbar.csproj", "{141BD959-D63E-4FAF-8740-B6AC7EBCE221}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trials.AutoParts.Modules.Overview", "Trials.AutoParts.Modules.Overview\Trials.AutoParts.Modules.Overview.csproj", "{8BEB3BA6-4093-44AE-B9A5-5523B635CD2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trial.AutoParts.Modules.Detail", "Trial.AutoParts.Modules.Detail\Trial.AutoParts.Modules.Detail.csproj", "{F8BF0815-90D6-44DA-9DC7-F864CB78D088}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{A1149903-010D-4329-980E-11FB37E29C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1149903-010D-4329-980E-11FB37E29C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1149903-010D-4329-980E-11FB37E29C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{141BD959-D63E-4FAF-8740-B6AC7EBCE221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141BD959-D63E-4FAF-8740-B6AC7EBCE221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141BD959-D63E-4FAF-8740-B6AC7EBCE221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141BD959-D63E-4FAF-8740-B6AC7EBCE221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BEB3BA6-4093-44AE-B9A5-5523B635CD2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BEB3BA6-4093-44AE-B9A5-5523B635CD2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BEB3BA6-4093-44AE-B9A5-5523B635CD2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BEB3BA6-4093-44AE-B9A5-5523B635CD2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8BF0815-90D6-44DA-9DC7-F864CB78D088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8BF0815-90D6-44DA-9DC7-F864CB78D088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8BF0815-90D6-44DA-9DC7-F864CB78D088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8BF0815-90D6-44DA-9DC7-F864CB78D088}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

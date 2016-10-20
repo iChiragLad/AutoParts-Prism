@@ -129,11 +129,27 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Theme.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Trial.AutoParts.Modules.Detail\Trial.AutoParts.Modules.Detail.csproj">
+      <Project>{f8bf0815-90d6-44da-9dc7-f864cb78d088}</Project>
+      <Name>Trial.AutoParts.Modules.Detail</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Trial.AutoParts.Modules.Ribbon\Trial.AutoParts.Modules.Ribbon.csproj">
       <Project>{a1149903-010d-4329-980e-11fb37e29c59}</Project>
       <Name>Trial.AutoParts.Modules.Ribbon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Trial.AutoParts.Modules.Statusbar\Trial.AutoParts.Modules.Statusbar.csproj">
+      <Project>{141bd959-d63e-4faf-8740-b6ac7ebce221}</Project>
+      <Name>Trial.AutoParts.Modules.Statusbar</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Trials.AutoParts.Modules.Overview\Trials.AutoParts.Modules.Overview.csproj">
+      <Project>{8beb3ba6-4093-44ae-b9a5-5523b635cd2e}</Project>
+      <Name>Trials.AutoParts.Modules.Overview</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
