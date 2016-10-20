@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trial.AutoParts", "Trial.AutoParts\Trial.AutoParts.csproj", "{DF96CB5F-43F5-43CD-9B93-27973F929223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trial.AutoParts.Modules.Ribbon", "Trial.AutoParts.Modules.Ribbon\Trial.AutoParts.Modules.Ribbon.csproj", "{A1149903-010D-4329-980E-11FB37E29C59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF96CB5F-43F5-43CD-9B93-27973F929223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF96CB5F-43F5-43CD-9B93-27973F929223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF96CB5F-43F5-43CD-9B93-27973F929223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF96CB5F-43F5-43CD-9B93-27973F929223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1149903-010D-4329-980E-11FB37E29C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1149903-010D-4329-980E-11FB37E29C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1149903-010D-4329-980E-11FB37E29C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1149903-010D-4329-980E-11FB37E29C59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
