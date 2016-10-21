@@ -97,6 +97,8 @@
       <DependentUpon>Statusbar.xaml</DependentUpon>
     </Compile>
     <Compile Include="StatusbarModule.cs" />
+    <Compile Include="ViewModelLocator.cs" />
+    <Compile Include="ViewModel\StatusViewModel.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -117,6 +119,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Trial.AutoParts.ApplicationService\Trial.AutoParts.ApplicationService.csproj">
+      <Project>{4D3C032C-4E4C-448A-A193-1D46A880AE62}</Project>
+      <Name>Trial.AutoParts.ApplicationService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Trials.AutoParts.Modules.Overview\Trials.AutoParts.Modules.Overview.csproj">
+      <Project>{8beb3ba6-4093-44ae-b9a5-5523b635cd2e}</Project>
+      <Name>Trials.AutoParts.Modules.Overview</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

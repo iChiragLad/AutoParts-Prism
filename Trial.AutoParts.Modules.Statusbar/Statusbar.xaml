@@ -6,13 +6,17 @@
              xmlns:local="clr-namespace:Trial.AutoParts.Modules.Statusbar"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300"
-             Height="300" Width="1800">
-    <Grid>
+             Height="300" Width="1800"
+             >
+    <UserControl.Resources>
+        <local:ViewModelLocator x:Key="ViewModelLocator"></local:ViewModelLocator>
+    </UserControl.Resources>
+    <Grid DataContext="{Binding Source={StaticResource ViewModelLocator}, Path=StatusViewModelObject}">
         <StackPanel Grid.Row="0"
                         Orientation="Horizontal" >
             <TextBlock HorizontalAlignment="Left"
                            Width="1614"
-                           Text="Status.........."
+                           Text="{Binding StatusString}"
                            FontWeight="Normal"
                            Foreground="#FFFFFFFF"
                            FontSize="34"

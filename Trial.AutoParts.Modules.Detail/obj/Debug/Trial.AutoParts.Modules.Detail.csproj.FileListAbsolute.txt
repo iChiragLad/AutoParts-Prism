@@ -26,3 +26,40 @@ C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Detail\obj\Debug\Trial
 C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Detail\obj\Debug\Trial.AutoParts.Modules.Detail.csproj.GenerateResource.Cache
 C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Detail\obj\Debug\Trial.AutoParts.Modules.Detail.dll
 C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Detail\obj\Debug\Trial.AutoParts.Modules.Detail.pdb
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Trial.AutoParts.Modules.Detail.dll
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Trial.AutoParts.Modules.Detail.pdb
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Prism.dll
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Prism.Unity.Wpf.dll
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Prism.Wpf.dll
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\System.Windows.Interactivity.dll
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Trial.AutoParts.ApplicationService.dll
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Trial.AutoParts.DataAccess.dll
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Trials.AutoParts.Modules.Overview.dll
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Trial.AutoParts.ApplicationService.pdb
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Trial.AutoParts.DataAccess.pdb
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Trials.AutoParts.Modules.Overview.pdb
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Prism.xml
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Prism.Unity.Wpf.xml
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\bin\Debug\Prism.Wpf.xml
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\obj\Debug\Trial.AutoParts.Modules.Detail.csprojResolveAssemblyReference.cache
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\obj\Debug\Detail.g.cs
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\obj\Debug\Trial.AutoParts.Modules.Detail_MarkupCompile.cache
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\obj\Debug\Trial.AutoParts.Modules.Detail_MarkupCompile.lref
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\obj\Debug\Detail.baml
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\obj\Debug\ResourceDictionary.baml
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\obj\Debug\Theme.baml
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\obj\Debug\Trial.AutoParts.Modules.Detail.g.resources
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\obj\Debug\Trial.AutoParts.Modules.Detail.Properties.Resources.resources
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\obj\Debug\Trial.AutoParts.Modules.Detail.csproj.GenerateResource.Cache
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\obj\Debug\Trial.AutoParts.Modules.Detail.dll
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Detail\obj\Debug\Trial.AutoParts.Modules.Detail.pdb

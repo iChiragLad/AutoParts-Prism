@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\D\testProjects\AutoParts-Prism\Trial.AutoParts.Modules.Statusbar\obj\Debug\
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.Modules.Statusbar\obj\Debug\
 Trial.AutoParts.Modules.Statusbar
 none
 false
@@ -12,9 +12,9 @@ DEBUG;TRACE
 
 2-300506952
 
-91215410131
-72-934261754
+11-294061940
+74-2016320419
 Statusbar.xaml;Theme.xaml;
 
-True
+False
 

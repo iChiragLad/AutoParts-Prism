@@ -13,6 +13,7 @@ using Trial.AutoParts.Modules.Ribbon;
 using Trial.AutoParts.Modules.Statusbar;
 using Trials.AutoParts.Modules.Overview;
 using Trial.AutoParts.Modules.Detail;
+using Trial.AutoParts.Modules.BlotterRegionDefault;
 
 namespace Trial.AutoParts
 {
@@ -36,8 +37,8 @@ namespace Trial.AutoParts
             moduleCatalog.AddModule(typeof(RibbonModule));
             moduleCatalog.AddModule(typeof(StatusbarModule));
             moduleCatalog.AddModule(typeof(OverviewModule));
+            moduleCatalog.AddModule(typeof(BlotterRegionDefaultModule));
             moduleCatalog.AddModule(typeof(DetailModule));
-
         }
 
     }

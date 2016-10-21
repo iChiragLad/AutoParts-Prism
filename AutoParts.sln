@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trial.AutoParts", "Trial.AutoParts\Trial.AutoParts.csproj", "{DF96CB5F-43F5-43CD-9B93-27973F929223}"
 EndProject
@@ -12,6 +12,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trials.AutoParts.Modules.Overview", "Trials.AutoParts.Modules.Overview\Trials.AutoParts.Modules.Overview.csproj", "{8BEB3BA6-4093-44AE-B9A5-5523B635CD2E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trial.AutoParts.Modules.Detail", "Trial.AutoParts.Modules.Detail\Trial.AutoParts.Modules.Detail.csproj", "{F8BF0815-90D6-44DA-9DC7-F864CB78D088}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trial.AutoParts.DataAccess", "Trial.AutoParts.DataAccess\Trial.AutoParts.DataAccess.csproj", "{BF84E545-EE77-4202-AEE0-EF0915332FA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trial.AutoParts.Modules.BlotterRegionDefault", "Trial.AutoParts.Modules.BlotterRegionDefault\Trial.AutoParts.Modules.BlotterRegionDefault.csproj", "{F9D701A4-BED1-42B3-B156-004B78C945E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trial.AutoParts.ApplicationService", "Trial.AutoParts.ApplicationService\Trial.AutoParts.ApplicationService.csproj", "{4D3C032C-4E4C-448A-A193-1D46A880AE62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{F8BF0815-90D6-44DA-9DC7-F864CB78D088}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8BF0815-90D6-44DA-9DC7-F864CB78D088}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8BF0815-90D6-44DA-9DC7-F864CB78D088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF84E545-EE77-4202-AEE0-EF0915332FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF84E545-EE77-4202-AEE0-EF0915332FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF84E545-EE77-4202-AEE0-EF0915332FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF84E545-EE77-4202-AEE0-EF0915332FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D701A4-BED1-42B3-B156-004B78C945E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D701A4-BED1-42B3-B156-004B78C945E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D701A4-BED1-42B3-B156-004B78C945E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D701A4-BED1-42B3-B156-004B78C945E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D3C032C-4E4C-448A-A193-1D46A880AE62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D3C032C-4E4C-448A-A193-1D46A880AE62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D3C032C-4E4C-448A-A193-1D46A880AE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D3C032C-4E4C-448A-A193-1D46A880AE62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

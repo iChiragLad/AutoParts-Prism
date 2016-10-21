@@ -6,11 +6,13 @@
              xmlns:local="clr-namespace:Trials.AutoParts.Modules.Overview"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300"
-             Height="600" Width="700">
+             Height="600" Width="720"
+             xmlns:converter="clr-namespace:Trials.AutoParts.Modules.Overview.Converter">
     <UserControl.Resources>
-            <ResourceDictionary Source="Theme.xaml" />
+        <converter:ImageConverter x:Key="MyImageConverter"></converter:ImageConverter>
+        <local:ViewModelLocator x:Key="ViewModelLocator"></local:ViewModelLocator>
     </UserControl.Resources>
-    <Grid>
+    <Grid DataContext="{Binding Source={StaticResource ViewModelLocator}, Path=OverviewViewModelObject}">
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*"></ColumnDefinition>
@@ -26,10 +28,38 @@
                 <RowDefinition></RowDefinition>
                 <RowDefinition Height="2*"></RowDefinition>
             </Grid.RowDefinitions>
+            
+            <ListView Grid.Column="0" Grid.RowSpan="7" Name="LstView" ItemsSource="{Binding PartsCollection, Mode=TwoWay}" SelectedItem="{Binding SelectedPart}">
+                <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="#CCCCCC" BorderThickness="1">
+                        <Grid Width="344">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="88*"></ColumnDefinition>
+                                <ColumnDefinition Width="149*"></ColumnDefinition>
+                                <ColumnDefinition Width="7*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="15"></RowDefinition>
+                            </Grid.RowDefinitions>
+                                <Image Source="{Binding Id, Converter= {StaticResource MyImageConverter}}" Grid.RowSpan="3"></Image>
+                                <Label Content="{Binding Name}" FontSize="14" Grid.Column="1"  Grid.ColumnSpan="2" FontWeight="Bold" Margin="0,0,6.8,0"></Label>
+                            <StackPanel  Grid.Row="1" Orientation="Horizontal" Grid.Column="1" Margin="0,0,1,-111.6" Grid.RowSpan="2">
+                                <Label Content="Stock: "></Label>
+                                <Label Content="{Binding Quantity}"></Label>
+                            </StackPanel>
+                            <Label Content="{Binding Price}" HorizontalAlignment="Right" Grid.Row="1" Grid.Column="2" Margin="0,0,6.8,-111.6" Grid.RowSpan="2" Width="50" ></Label>
 
-            <ListView Grid.Column="0" Grid.RowSpan="7" Name="LstView"></ListView>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            </ListView>
 
-            <Image Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="0"></Image>
+            <Image Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="0" Source="{Binding SelectedPart.Id, Converter={StaticResource MyImageConverter}}"></Image>
 
             <Label Grid.Column="1" Grid.Row="1" FontSize="16">Name</Label>
             <Label Grid.Column="1" Grid.Row="2" FontSize="16">Description</Label>
@@ -37,13 +67,13 @@
             <Label Grid.Column="1" Grid.Row="4" FontSize="16">Quantity</Label>
             <Label Grid.Column="1" Grid.Row="5" FontSize="16">Date Purchased</Label>
 
-            <Label Grid.Column="2" Grid.Row="1" Name="LblName"></Label>
-            <Label Grid.Column="2" Grid.Row="2" Name="LblDes"></Label>
-            <Label Grid.Column="2" Grid.Row="3" Name="LblPrice"></Label>
-            <Label Grid.Column="2" Grid.Row="4" Name="LblQuantity"></Label>
-            <Label Grid.Column="2" Grid.Row="5" Name="LblDop"></Label>
+            <TextBlock Grid.Column="2" Grid.Row="1" FontWeight="Bold" Text="{Binding SelectedPart.Name}"></TextBlock>
+            <TextBlock Grid.Column="2" Grid.Row="2" FontWeight="Bold" Text="{Binding SelectedPart.Description}"></TextBlock>
+            <TextBlock Grid.Column="2" Grid.Row="3" FontWeight="Bold" Text="{Binding SelectedPart.Price}"></TextBlock>
+            <TextBlock Grid.Column="2" Grid.Row="4" FontWeight="Bold" Text="{Binding SelectedPart.Quantity}"></TextBlock>
+            <TextBlock Grid.Column="2" Grid.Row="5" FontWeight="Bold" Text="{Binding SelectedPart.Dop}"></TextBlock>
 
-            <Button Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="6" Content="Edit" Margin="0,5,0,5" Width="200" Height="40"></Button>
+            <Button Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="6" Content="Edit" Margin="0,5,0,5" Width="200" Height="40" Command="{Binding EditCommand}"></Button>
             
         </Grid>
     </Grid>

@@ -135,6 +135,10 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Trial.AutoParts.Modules.BlotterRegionDefault\Trial.AutoParts.Modules.BlotterRegionDefault.csproj">
+      <Project>{f9d701a4-bed1-42b3-b156-004b78c945e6}</Project>
+      <Name>Trial.AutoParts.Modules.BlotterRegionDefault</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Trial.AutoParts.Modules.Detail\Trial.AutoParts.Modules.Detail.csproj">
       <Project>{f8bf0815-90d6-44da-9dc7-f864cb78d088}</Project>
       <Name>Trial.AutoParts.Modules.Detail</Name>

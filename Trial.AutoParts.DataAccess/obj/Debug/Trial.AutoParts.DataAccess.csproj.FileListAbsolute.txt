@@ -1,0 +1,5 @@
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.DataAccess\bin\Debug\Trial.AutoParts.DataAccess.dll
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.DataAccess\bin\Debug\Trial.AutoParts.DataAccess.pdb
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.DataAccess\obj\Debug\Trial.AutoParts.DataAccess.csprojResolveAssemblyReference.cache
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.DataAccess\obj\Debug\Trial.AutoParts.DataAccess.dll
+D:\Backup\TestProjects\AutoParts - Prism\AutoParts-Prism\Trial.AutoParts.DataAccess\obj\Debug\Trial.AutoParts.DataAccess.pdb

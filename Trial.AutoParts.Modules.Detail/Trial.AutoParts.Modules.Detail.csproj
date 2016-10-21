@@ -80,6 +80,7 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Converter\ImageConverter.cs" />
     <Compile Include="Detail.xaml.cs">
       <DependentUpon>Detail.xaml</DependentUpon>
     </Compile>
@@ -97,6 +98,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="ViewModelLocator.cs" />
+    <Compile Include="ViewModel\DetailViewModel.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -113,10 +116,37 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ResourceDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Theme.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Trial.AutoParts.ApplicationService\Trial.AutoParts.ApplicationService.csproj">
+      <Project>{4d3c032c-4e4c-448a-a193-1d46a880ae62}</Project>
+      <Name>Trial.AutoParts.ApplicationService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Trial.AutoParts.DataAccess\Trial.AutoParts.DataAccess.csproj">
+      <Project>{BF84E545-EE77-4202-AEE0-EF0915332FA2}</Project>
+      <Name>Trial.AutoParts.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Trials.AutoParts.Modules.Overview\Trials.AutoParts.Modules.Overview.csproj">
+      <Project>{8beb3ba6-4093-44ae-b9a5-5523b635cd2e}</Project>
+      <Name>Trials.AutoParts.Modules.Overview</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\part1.jpg" />
+    <Resource Include="Images\part2.jpg" />
+    <Resource Include="Images\part3.jpg" />
+    <Resource Include="Images\part4.jpg" />
+    <Resource Include="Images\part5.jpg" />
+    <Resource Include="Images\part6.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
